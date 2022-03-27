@@ -22,12 +22,12 @@ namespace BlogMVC.Models
 
             List<Blog> blogs = new List<Blog>()
             {
-                new Blog()  {Baslik="C# Delegates Hakkında1",Aciklama="Delegates Hakkında1",EklemeTarihi=DateTime.Now.AddDays(-10) , Resim="1.jpg", Anasayfa = true, Onay = true,CategoryId=1},
+                new Blog()  {Baslik="C# Delegates Hakkında1 C# Delegates Hakkında1 C# Delegates Hakkında1 C# Delegates Hakkında1 C# Delegates Hakkında1C# Delegates Hakkında1C# Delegates Hakkında1C# Delegates Hakkında1C# Delegates Hakkında1C# Delegates Hakkında1",Aciklama="Delegates Hakkında1Delegates Hakkında1Delegates Hakkında1Delegates Hakkında1Delegates Hakkında1Delegates Hakkında1",EklemeTarihi=DateTime.Now.AddDays(-10) , Resim="1.jpg", Anasayfa = true, Onay = true,CategoryId=1},
                 new Blog()  {Baslik="C# Delegates Hakkında1",Aciklama="Delegates Hakkında1",EklemeTarihi=DateTime.Now.AddDays(-10) , Resim="1.jpg", Anasayfa = true, Onay = true,CategoryId=1},
                 new Blog()  {Baslik="C# Delegates Hakkında2",Aciklama="Delegates Hakkında2",EklemeTarihi=DateTime.Now.AddDays(-5)  , Resim="1.jpg", Anasayfa = true, Onay = false,CategoryId=2},
                 new Blog()  {Baslik="C# Delegates Hakkında2",Aciklama="Delegates Hakkında2",EklemeTarihi=DateTime.Now.AddDays(-5)  , Resim="1.jpg", Anasayfa = true, Onay = false,CategoryId=2},
                 new Blog()  {Baslik="C# Delegates Hakkında3",Aciklama="Delegates Hakkında3",EklemeTarihi=DateTime.Now.AddDays(-4)  , Resim="1.jpg", Anasayfa = false, Onay = true,CategoryId=3},
-                new Blog()  {Baslik="C# Delegates Hakkında3",Aciklama="Delegates Hakkında3",EklemeTarihi=DateTime.Now.AddDays(-4)  , Resim="1.jpg", Anasayfa = false, Onay = true,CategoryId=3},
+                new Blog()  {Baslik="C# Delegates Hakkında3C# Delegates Hakkında3C# Delegates Hakkında3C# Delegates Hakkında3C# Delegates Hakkında3C# Delegates Hakkında3C# Delegates Hakkında3C# Delegates Hakkında3C# Delegates Hakkında3C# Delegates Hakkında3C# Delegates Hakkında3C# Delegates Hakkında3",Aciklama="Delegates Hakkında3",EklemeTarihi=DateTime.Now.AddDays(-4)  , Resim="1.jpg", Anasayfa = true, Onay = true,CategoryId=3},
                 new Blog()  {Baslik="C# Delegates Hakkında4",Aciklama="Delegates Hakkında4",EklemeTarihi=DateTime.Now.AddDays(-3)  , Resim="1.jpg", Anasayfa = true, Onay = true,CategoryId=4},
                 new Blog()  {Baslik="C# Delegates Hakkında4",Aciklama="Delegates Hakkında4",EklemeTarihi=DateTime.Now.AddDays(-3)  , Resim="1.jpg", Anasayfa = true, Onay = true,CategoryId=4},
                 new Blog()  {Baslik="C# Delegates Hakkında4",Aciklama="Delegates Hakkında4",EklemeTarihi=DateTime.Now.AddDays(-3)  , Resim="1.jpg", Anasayfa = true, Onay = true,CategoryId=4},

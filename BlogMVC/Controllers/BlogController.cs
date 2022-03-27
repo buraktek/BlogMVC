@@ -51,6 +51,8 @@ namespace BlogMVC.Controllers
         // GET: Blog/Create
         public IActionResult Create()
         {
+            //var blogs = db.Blogs.Include(b => b.Category);
+            ViewBag.CategoryId = new SelectList(db.Categories, "CategoryId", "KategoriAdi");
             return View();
         }
 
